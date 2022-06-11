@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: MyAgentPool
 
 steps:
 - task: NodeTool@0
