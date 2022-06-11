@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: MyAgentPool
+pool: Default
 
 steps:
 - task: NodeTool@0
